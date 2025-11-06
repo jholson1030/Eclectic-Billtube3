@@ -1,0 +1,95 @@
+/* --- ROOT VARIABLES --- */
+
+:root {
+    --btfw-top: 60px;
+    --zeb-title-font: 'Seymour One', 'Ubuntu', sans-serif;
+    --zeb-accent-font: 'Quicksand', 'Ubuntu', sans-serif;
+  }
+
+
+  /* --- CLASS AND ID TAGS --- */
+
+  .timestamp {
+    color: #f8f8ff !important;
+    font-size: .75em !important;
+    right: 0 !important;
+}
+
+#btfw-nowplaying-slot, .btfw-chat-title, #currenttitle {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    word-break: break-word !important;
+    text-align: center !important;
+}
+
+.btfw-chat-topbar {
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 0 !important;
+}
+
+.btfw-chat-bottombar {
+    position: static !important;
+}
+
+#btfw-nowplaying-slot {
+    font-size: 1rem !important;
+}
+
+#btfw-navhost .navbar-brand {
+    font-size: clamp(2rem, 2.65vw, 2.3rem) !important;
+    font-family: var(--zeb-title-font);
+    color: #ca6e2e !important;
+    font-weight: 700 !important;
+    -webkit-text-stroke: 1px rgba(34, 20, 15, .55) !important;
+    text-shadow: 
+      0 1px 0 rgba(26, 15, 11, .85),
+      0 2px 0 rgba(22, 12, 9, .75),
+      0 3px 2px rgba(20, 9, 7, .65),
+      0 4px 3px rgba(18, 6, 5, .55),
+      0 5px 4px rgba(0, 0, 0, .35),
+      0 -1px 0 rgba(255, 230, 160, .12) !important;
+    letter-spacing: .9px !important;
+    line-height: 1.1 !important;
+}
+
+#btfw-navhost > nav.navbar {
+    min-height: 100% !important;
+    padding-block: 0.2em !important;
+}
+
+#btfw-navhost nav .navbar-nav > li > a {
+    font-size: clamp(1rem, 1.65vw, 1.25rem) !important;
+}
+
+#btfw-navhost nav .navbar-nav > li > a, .btfw-chat-topbar, .modal-header {
+    font-family: var(--zeb-accent-font);
+}
+
+#btfw-navhost .btfw-nav-avatar {
+    width: 42px !important;
+    height: 42px !important;
+}
+
+.btfw-chat-avatar {
+    transition: transform 0.75s ease-in-out;
+}
+
+#btfw-chatcol , #chatwrap {
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 0 !important;
+}
+
+#btfw-chatcol > * {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.btfw-chat-bottombar {
+    margin: 0 !important;
+    border: 0 !important;
+    gap: 0 !important;
+    padding: 0 !important;
+}
