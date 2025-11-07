@@ -93,3 +93,65 @@
     gap: 0 !important;
     padding: 0 !important;
 }
+
+/* --- USERNAME STYLES TEST --- */
+
+.chat-msg-Zeb-Dev .username, .clr_Zeb-Dev {
+    background: none;
+    font-size: 2rem!important;
+    font-family: "Creepster", sans-serif!important;
+    text-transform: uppercase;
+    font-weight: 800;
+    --btfw-name-color: #ff1e1e!important;
+    -webkit-text-fill-color: #ff1e1e;
+    -webkit-transform: skew(-3deg, -3deg) rotate(3deg);
+    transform: skew(-3deg, -3deg) rotate(3deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    text-shadow: 
+        0 0 6px #ff0000,    
+        0 0 12px #ff5500,   
+        2px 2px 4px #000,   
+        -2px -2px 6px #660000;
+    letter-spacing: 4px;
+    transition: 0.4s ease-in-out;
+    position: relative;
+    animation: bloodPulse 2s infinite;
+}
+
+.chat-msg-Zeb-Dev .username:hover {
+    text-shadow: 
+        0 0 8px #ff0000,
+        0 0 16px #ff5500,
+        0 0 24px #ff2200,
+        2px 2px 6px #000!important;
+    color: #ff8800!important;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.chat-msg-Zeb-Dev .username:before {
+background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmgzaG41djd0MWFqY3JsZDl1bG1kOWxkMXFqa3doa3NsajV1d3ppNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Vx7QhTYVhIrhumRkst/giphy.gif"); background-size:cover;
+    height: 30px; 
+    width: 40px; 
+    margin-right: 6px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+@keyframes bloodPulse {
+    0%, 100% {
+        text-shadow: 
+            0 0 6px #ff0000,
+            0 0 12px #ff5500,
+            2px 2px 4px #000;
+    }
+    50% {
+        text-shadow: 
+            0 0 10px #ff2200,
+            0 0 20px #ff4400,
+            0 0 30px #ff0000,
+            2px 2px 6px #000;
+    }
+}
