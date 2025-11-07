@@ -6,5 +6,4 @@ the Billtube script should be directed to Bill, you can contact him at his [Disc
 \
 ## What This Repo Is For
 \
-**The files in this repo is strictly for changes to Billtube3 elements.** Style changes and modifications to Cytube's base code will be placed in the Eclectic\
-channel's internal CSS and JS editor.
+**The files in this repo is strictly for changes to Billtube3 elements.** Style changes and modifications to Cytube's base code will be placed in the Eclectic channel's internal CSS and JS editor.
