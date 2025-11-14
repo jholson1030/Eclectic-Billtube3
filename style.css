@@ -4,6 +4,10 @@
     --btfw-top: 60px;
     --zeb-title-font: 'Seymour One', 'Ubuntu', sans-serif;
     --zeb-accent-font: 'Quicksand', 'Ubuntu', sans-serif;
+    --zeb-pm-background: #61221a;
+    --zeb-pm-img-min-width: 110px;
+    --zeb-pm-img-max-height: clamp(6rem, 20vh, 14rem);
+    --zeb-pm-img-width: clamp(6rem, 20vw, 14rem);
   }
 
 
@@ -92,4 +96,48 @@
     border: 0 !important;
     gap: 0 !important;
     padding: 0 !important;
+}
+
+/* PM Changes */
+
+html[data-btfw-theme="dark"] .pm-pannel {
+    background: var(--zeb-pm-background) !important;
+    opacity: .95 !important;
+    color: #f0eff1 !important;
+}
+
+html[data-btfw-theme="dark"] .pm-pannel .pannel-body {
+    padding: 4px 5px 5px !important;
+}
+
+html[data-btfw-theme="dark"] .pm-panel .timestamp {
+    color: #222021 !important;
+    font-size: .75em !important;
+}
+
+#pmbar .pm-panel .pm-buffer .username {
+    font-size: 1.1rem !important;
+    color: #e4c176 !important;
+    -webkit-text-stroke: .15px #ca6e2e !important;
+}
+
+html[data-btfw-theme="dark"] .pm-panel .channel-emote,
+html[data-btfw-theme="dark"] .pm-panel .giphy,
+html[data-btfw-theme="dark"] .pm-panel .chat-picture,
+html[data-btfw-theme="dark"] .pm-panel .image-embed-small {
+    width: var(--zeb-pm-img-width) !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-width: var(--zeb-pm-img-min-width) !important;
+    max-height: var(--zeb-pm-img-max-height) !important;
+    transition: transform 0.75s ease-in-out;
+}
+
+html[data-btfw-theme="dark"] .pm-panel .pm-input {
+    border-radius: 5px !important;
+    border: none !important;
+}
+
+html[data-btfw-theme="dark"] .pm-panel hr {
+    display: none !important;
 }
