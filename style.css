@@ -152,3 +152,54 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 #messagebuffer > div:hover {
     background: var(--zeb-msg-hover-bg) !important;
 }
+
+
+/* ===== USERNAME STYLES ===== */
+
+/* Zeb-Dev */
+
+#messagebuffer .chat-msg-Zeb-Dev .username,
+#messagebuffer .clr_Zeb-Dev {
+    font-size: 2rem !important;
+    font-family: "Lacquer", sans-serif !important;
+    font-weight: 300;
+    letter-spacing: 1.5px !important;
+    text-transform: uppercase !important;
+    background: linear-gradient(90deg,
+      #0000ff 0%,
+      #4949ff 24%,
+      #0000ff 50%,
+      #4949ff 76%,
+      #0000ff 100%
+  );
+    background-size: 400% 100% !important;
+    background-position: 0% 0% !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-text-stroke: .75px #6600ff !important;
+    display: inline-block !important;
+    position: relative !important;
+    animation: zebGlow 4.5s ease-in-out infinite;
+}
+
+@keyframes zebGlow {
+    0%, 100% {
+      text-shadow: 0 0 3px rgba(0, 0, 40, .4),
+      0 0 6px #0016aa, 
+      0 0 12px #1a2aff,
+      0 0 24px #6600ff;
+    }
+    50% {
+      text-shadow: 0 0 6px rgba(0, 0, 20, .6),
+      0 0 12px #3a4bff,
+      0 0 24px #667aff,
+      0 0 36px #6600ff;
+    }
+}
+
+.chat-msg-Zeb-Dev .username:before {
+background:url("https://media.tenor.com/uPKBSSYU8BcAAAAj/computer-pixel.gif"); background-size:cover;
+    height:40px; width:40px; margin-right:6px;
+    content:""; display:inline-block; vertical-align:middle;
+}
