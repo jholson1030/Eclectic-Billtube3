@@ -100,14 +100,14 @@
 
 /* PM Changes */
 
-html[data-btfw-theme="dark"] .pm-pannel {
+html[data-btfw-theme="dark"] .pm-panel {
     background: var(--zeb-pm-background) !important;
     opacity: .95 !important;
     color: #f0eff1 !important;
 }
 
-html[data-btfw-theme="dark"] .pm-pannel .pannel-body {
-    padding: 4px 5px 5px !important;
+html[data-btfw-theme="dark"] .pm-panel .panel-body {
+    padding: 3px 5px !important;
 }
 
 html[data-btfw-theme="dark"] .pm-panel .timestamp {
