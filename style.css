@@ -1,3 +1,8 @@
+/* --- FONT IMPORTS --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
 /* --- ROOT VARIABLES --- */
 
 :root {
@@ -203,3 +208,514 @@ background:url("https://media.tenor.com/uPKBSSYU8BcAAAAj/computer-pixel.gif"); b
     height:40px; width:40px; margin-right:6px;
     content:""; display:inline-block; vertical-align:middle;
 }
+
+/* Think, Truthy, SwineFlew */
+
+.chat-msg-Think .username, .clr_Think {
+    --btfw-name-color: #F3BFB8!important; 
+    filter: drop-shadow(5px 5px 4px #000000)!important;
+}
+
+.chat-msg-Think .username:before {
+    background:url("https://i.ibb.co/z5xpgts/Ie-P8u-FDnak8-I.gif"); background-size:cover;
+    height:30px; width:30px; margin-right:4px;
+    content:""; display:inline-block; vertical-align:middle;
+}
+
+.chat-msg-Truthy .username, .clr_Truthy {
+    --btfw-name-color: #ec9006!important;
+    font-family: "GoodDog Cool", "GoodDog Plain", sans-serif;
+    font-size: 1.7rem!important;
+}
+
+.chat-msg-SwineFlew .username, .clr_SwineFlew {
+    --btfw-name-color: #F3BFB8!important;
+}
+
+.chat-msg-SwineFlew .username:before {
+    background:url("https://i.ibb.co/z5xpgts/Ie-P8u-FDnak8-I.gif"); background-size:cover;
+    height:30px; width:30px; margin-right:4px;
+    content:""; display:inline-block; vertical-align:middle;
+}
+
+/* Ryen */
+
+.chat-msg-Ryen .username, .clr_Ryen {
+    --btfw-name-color: #028a0f!important;
+    font-family: "Tektur", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.chat-msg-Ryen .username:before {
+    background:url("https://pomf2.lain.la/f/dkphi994.gif"); background-size:cover;
+    height:40px; width:40px; margin-right:4px;
+    content:""; display:inline-block; vertical-align:middle;
+}
+
+/* nickoftime */
+
+#messagebuffer .chat-msg-nickoftime .username, .clr_nickoftime {
+    --btfw-name-color: #35b7f7!important;
+    text-shadow: 0px 0px 6px #0013e2, 0px 0px 6px #0013e2, 0px 0px 6px #0013e2, 0px 0px 6px #0013e2!important; 
+    font-size: 1.5rem!important;
+}
+
+.chat-msg-nickoftime .username:before {
+    background:url("https://pomf2.lain.la/f/hs7f0bth.png"); background-size:cover;
+    height:30px; width:30px; margin-right:4px;
+    content:""; display:inline-block; vertical-align:middle;
+}
+
+/* CherryElleMongrelle */
+
+.chat-msg-CherryElleMongrelle .username, .clr_CherryElleMongrelle {
+    --btfw-name-color: #ad1212!important; 
+    filter: drop-shadow(0px 0px 7px #ffffff)!important; 
+    font-family: "Cherry Bomb One", system-ui!important; 
+    font-size: 1.7rem!important;
+}
+
+.chat-msg-CherryElleMongrelle .username:before {
+    background:url("https://pomf2.lain.la/f/gssgg41a.png"); background-size:cover;
+    height:30px; width:30px; margin-right:4px;
+    content:""; display:inline-block; vertical-align:middle;
+}
+
+/* J44J */
+
+.chat-msg-J44J .username, .clr_J44J {
+    --btfw-name-color: #ffffff!important; 
+    text-shadow: 6px 6px 2px #808080, 6px 6px 2px #808080, 8px 2px 3px #808080!important; 
+    font-family: Courier New !important;
+}
+
+.chat-msg-Observer .username, .clr_Observer {
+    color: #1e1e1e!important;
+  }
+  
+  .chat-msg-Deianeira .username, .clr_Deianeira {
+    color: #0df409!important;
+  }
+  
+  .chat-msg-Milky .username {
+    color: #348144!important;
+  }
+  .chat-msg-creamathon .username {
+    color: #2a52be!important;
+  }
+  
+  .chat-msg-SAmaniactick .username, .clr_SAmaniactick {
+    filter: drop-shadow(0px 0px 4px #a24646)!important; 
+    animation: leMovingBackFromRight 10s infinite; 
+    transform-origin: bottom;
+  }
+  
+  .chat-msg-Robobob .username, .clr_Robobob { 
+      background-image: linear-gradient(to bottom, #6e6e6e, #6c6c6c, #6b6b6b, white, #6b6b6b, #6b6b6b, #6b6b6b)!important;
+      -webkit-background-clip: text!important;
+      -moz-background-clip: text!important;
+      background-clip: text!important;
+      color: transparent!important;
+  }
+  
+  .chat-msg-PartyCatCeilidh .username, .clr_PartyCatCeilidh {
+      color: #FAFB08!important;
+  }
+  
+  .chat-msg-hex9c9f84 .username {
+      color: #9c9f84!important;
+  }
+  
+  .chat-msg-creamathon .username:before {
+    background: url("https://iili.io/spC8Bt.gif"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-Deianeira .username:before {
+    background: url("https://i.ibb.co/wC1s6SQ/dc2.jpg"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-Milky .username:before {
+    background: url("https://i.ibb.co/F8qz0RZ/6111026j0sn-MN0-F.png");  background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-HeinekinSkywalker .username:before {
+    background: url("https://i.ibb.co/CB0y4J2/clipart2613449.png");       background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-superbeastdj .username:before {
+    background: url("https://i.ibb.co/QrCBB36/superbeastdj.png");
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-Viewer420 .username:before {
+    background: url("https://pomf2.lain.la/f/mbtqyppy.png"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-SAmaniactick .username:before {
+    background: url("https://pomf2.lain.la/f/mbtqyppy.png"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-Observer .username:before {
+    background: url("https://i.ibb.co/ZxBW9mJ/obs.png"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-creamathon .username:before {
+    background: url("https://iili.io/spC8Bt.gif"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-Deianeira .username:before {
+    background: url("https://i.ibb.co/wC1s6SQ/dc2.jpg"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-Milky .username:before {
+    background: url("https://i.ibb.co/F8qz0RZ/6111026j0sn-MN0-F.png"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-Viewer420 .username, .clr_Viewer420 {
+    filter: drop-shadow(0px 0px 4px #00a602)!important; 
+    animation: leMovingBackFromRight 10s infinite; 
+    transform-origin: bottom;
+  }
+  
+  .chat-msg-KelliAli .username, .clr_KelliAli {
+    color: #FFEB30!important;
+  }
+  
+  .chat-msg-KelliAli .username:before {
+    background: url("https://iili.io/PywJTl.png"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-FritzMongrella .username:before {
+    background: url("https://i.ibb.co/P1L14jG/3111833u-Lx3-Oo3-V.gif"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-Fritz_The_Cat .username:before {
+    background: url("https://i.ibb.co/P1L14jG/3111833u-Lx3-Oo3-V.gif"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-AshMongrella .username:before {         
+    background: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGJobDJ3eW84bGFjeG5tcmk1dnh0bHZ0Z3l3d3d5dnV3MDJ6OXQ1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/F55MLg80ppb8ZdScI3/giphy.gif"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-1010011010 .username, .clr_1010011010 {
+    --btfw-name-color: #000000!important;
+    font-size: 1.4rem!important;
+    font-family: "Cabin Sketch", system-ui!important;
+    text-shadow:
+      0 3px 20px red,
+      0 0 20px red,
+      0 0 10px orange,
+      4px -5px 6px yellow,
+      -4px -10px 10px yellow,
+      0 -10px 30px yellow;
+    animation: animate 2s infinite alternate linear;
+  }
+  
+  @keyframes  animate {
+    0% {
+      text-shadow:
+        0 3px 20px red,
+        0 0 20px red,
+        0 0 10px orange,
+        0 0 0 yellow,
+        0 0 5px yellow,
+        -2px -5px 5px yellow,
+        4px -10px 10px yellow;
+    }
+    25% {
+      text-shadow:
+        0 3px 20px red,
+        0 0 30px red,
+        0 0 20px orange,
+        0 0 5px yellow,
+        -2px -5px 5px yellow,
+        3px -10px 10px yellow,
+        -4px -15px 20px yellow;
+    }
+    50% {
+      text-shadow:
+        0 3px 20px red,
+        0 0 20px red,
+        0 -5px 10px orange,
+        -2px -5px 5px yellow,
+        3 -10px 10px yellow,
+        -4px -15px 20px yellow,
+        2px -20px 30px rgba(255,255,0,0.5);
+    }
+    75% {
+      text-shadow:
+        0 3px 20px red,
+        0 0 20px red,
+        0 -5px 10px orange,
+        3 -5px 5px yellow,
+        -4px -10px 10px yellow,
+        2px -20px 30px rgba(255,255,0,0.5),
+        0 -25px 40px rgba(255,255,0,0);
+    }
+    100% {
+      text-shadow:
+        0 3px 20px red,
+        0 0 20px red,
+        0 0 10px orange,
+        0 0 0 yellow,
+        0 0 5px yellow,
+        -2px -5px 5px yellow,
+        4px -10px 10px yellow;
+    }
+  }
+  
+  .chat-msg-Fritz_The_Cat .username {
+    color: #96948c!important;
+  }
+  
+  .chat-msg-AshMongrella .username {
+    color: #ffa114!important;
+  }
+  
+  .chat-msg-FritzMongrella .username {
+    color: #96948c!important;
+  }
+  
+  .chat-msg-superbeastdj .username, .clr_superbeastdj {
+    --btfw-name-color: #03e8fc!important;
+  }
+  
+  .chat-msg-ihorse .username, .clr_ihorse {
+    --btfw-name-color: #1793d0!important;
+  }
+  
+  .chat-msg-ihorse .username:before {
+    background: url("https://i.ibb.co/QXyQZwj/CFHPOOTEz-AEt.gif"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .chat-msg-KelliAli .username, .clr_KelliAli {
+    --btfw-name-color: #FFEB30!important;
+  }
+  
+  .chat-msg-KelliAli .username:before {
+    background: url("https://iili.io/PywJTl.png"); 
+    background-size: cover;
+    height: 30px; 
+    width: 30px; 
+    margin-right: 4px;
+    content: ""; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  @keyframes leMovingBackFromRight {
+      40% { transform: rotate(45deg) }
+      100% {
+          transform: rotate(0deg);
+          animation-timing-function: cubic-bezier(0,.9,.7,1.45)
+      }
+  }
+  
+  /* --- Zeb-Dev Styles --- */
+  
+  /* --- #1 --- */
+  
+  .chat-msg-Zeb-Dev .username, .clr_Zeb-Dev {
+      background:  url(https://media.giphy.com/media/26BRyql7J3iOx875u/giphy.gif) center center/cover no-repeat!important;
+      font-family: Helvetica, Ariel, sans-serif !important;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: #1e90ff;
+      -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+      transform: skew(-5deg, -5deg) rotate(5deg);
+      -webkit-transform-origin: center center;
+      transform-origin: center center;
+      text-shadow: 1px 1px #0000ff,
+                   2px 2px #0000ff,
+                   3px 3px #0010bb,
+                   4px 4px #0010bb,
+                   5px 5px #0010bb,
+                   6px 6px #0010bb,
+                   7px 7px #0010bb,
+                   8px 8px #0010bb,
+                   9px 9px #0010bb,
+                   10px 10px #0010bb,
+                   11px 11px 15px rgba(0, 0, 0, 0.5);
+      letter-spacing: 5px;
+      transition: 0.5s ease-in-out;
+      position: relative; 
+  }
+  
+  .chat-msg-Zeb-Dev .username:hover {
+      margin-left: 15px;
+      text-shadow: 0 0 10px #0000ff;
+  }
+  
+  .chat-msg-Zeb-Dev .username:before {
+  background:url("https://pomf2.lain.la/f/d8xjc5gq.gif"); background-size:cover;
+  height:30px; width:30px; margin-right:4px;
+  content:""; display:inline-block; vertical-align:middle;
+  }
+  
+  /* --- #2 (Halloween) --- */
+  
+  .chat-msg-Zeb-Dev .username, .clr_Zeb-Dev {
+      background: none;
+      font-size: 2rem;
+      font-family: "Creepster", sans-serif!important;
+      text-transform: uppercase;
+      font-weight: 800;
+      color: #ff1e1e!important;
+      -webkit-text-fill-color: #ff1e1e;
+      -webkit-transform: skew(-3deg, -3deg) rotate(3deg);
+      transform: skew(-3deg, -3deg) rotate(3deg);
+      -webkit-transform-origin: center center;
+      transform-origin: center center;
+      text-shadow: 
+          0 0 6px #ff0000,    
+          0 0 12px #ff5500,   
+          2px 2px 4px #000,   
+          -2px -2px 6px #660000;
+      letter-spacing: 4px;
+      transition: 0.4s ease-in-out;
+      position: relative;
+      animation: bloodPulse 2s infinite;
+  }
+  
+  .chat-msg-Zeb-Dev .username:hover {
+      text-shadow: 
+          0 0 8px #ff0000,
+          0 0 16px #ff5500,
+          0 0 24px #ff2200,
+          2px 2px 6px #000!important;
+      color: #ff8800!important;
+      transform: scale(1.1);
+      transition: all 0.5s ease-in-out;
+  }
+  
+  .chat-msg-Zeb-Dev .username:before {
+  background:url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmgzaG41djd0MWFqY3JsZDl1bG1kOWxkMXFqa3doa3NsajV1d3ppNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Vx7QhTYVhIrhumRkst/giphy.gif"); background-size:cover;
+      height:30px; width:40px; margin-right:6px;
+      content:""; display:inline-block; vertical-align:middle;
+  }
+  
+  @keyframes bloodPulse {
+      0%, 100% {
+          text-shadow: 
+              0 0 6px #ff0000,
+              0 0 12px #ff5500,
+              2px 2px 4px #000;
+      }
+      50% {
+          text-shadow: 
+              0 0 10px #ff2200,
+              0 0 20px #ff4400,
+              0 0 30px #ff0000,
+              2px 2px 6px #000;
+      }
+  }
