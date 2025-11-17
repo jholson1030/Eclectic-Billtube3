@@ -163,6 +163,8 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 
 /* Zeb-Dev */
 
+/* --- #1 --- */
+
 #messagebuffer .chat-msg-Zeb-Dev .username,
 #messagebuffer .clr_Zeb-Dev {
     font-size: 2rem !important;
@@ -208,6 +210,66 @@ background:url("https://media.tenor.com/uPKBSSYU8BcAAAAj/computer-pixel.gif"); b
     height:40px; width:40px; margin-right:6px;
     content:""; display:inline-block; vertical-align:middle;
 }
+
+/* --- #2 (Halloween) --- */
+
+/*
+.chat-msg-Zeb-Dev .username, .clr_Zeb-Dev {
+    background: none;
+    font-size: 2rem;
+    font-family: "Creepster", sans-serif!important;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ff1e1e!important;
+    -webkit-text-fill-color: #ff1e1e;
+    -webkit-transform: skew(-3deg, -3deg) rotate(3deg);
+    transform: skew(-3deg, -3deg) rotate(3deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    text-shadow: 
+        0 0 6px #ff0000,    
+        0 0 12px #ff5500,   
+        2px 2px 4px #000,   
+        -2px -2px 6px #660000;
+    letter-spacing: 4px;
+    transition: 0.4s ease-in-out;
+    position: relative;
+    animation: bloodPulse 2s infinite;
+}
+
+.chat-msg-Zeb-Dev .username:hover {
+    text-shadow: 
+        0 0 8px #ff0000,
+        0 0 16px #ff5500,
+        0 0 24px #ff2200,
+        2px 2px 6px #000!important;
+    color: #ff8800!important;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.chat-msg-Zeb-Dev .username:before {
+background:url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmgzaG41djd0MWFqY3JsZDl1bG1kOWxkMXFqa3doa3NsajV1d3ppNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Vx7QhTYVhIrhumRkst/giphy.gif"); background-size:cover;
+    height:30px; width:40px; margin-right:6px;
+    content:""; display:inline-block; vertical-align:middle;
+}
+
+@keyframes bloodPulse {
+    0%, 100% {
+        text-shadow: 
+            0 0 6px #ff0000,
+            0 0 12px #ff5500,
+            2px 2px 4px #000;
+    }
+    50% {
+        text-shadow: 
+            0 0 10px #ff2200,
+            0 0 20px #ff4400,
+            0 0 30px #ff0000,
+            2px 2px 6px #000;
+    }
+}
+*/
 
 /* Think, Truthy, SwineFlew */
 
@@ -618,104 +680,5 @@ background:url("https://media.tenor.com/uPKBSSYU8BcAAAAj/computer-pixel.gif"); b
       100% {
           transform: rotate(0deg);
           animation-timing-function: cubic-bezier(0,.9,.7,1.45)
-      }
-  }
-  
-  /* --- Zeb-Dev Styles --- */
-  
-  /* --- #1 --- */
-  
-  .chat-msg-Zeb-Dev .username, .clr_Zeb-Dev {
-      background:  url(https://media.giphy.com/media/26BRyql7J3iOx875u/giphy.gif) center center/cover no-repeat!important;
-      font-family: Helvetica, Ariel, sans-serif !important;
-      font-size: 1.5rem;
-      text-transform: uppercase;
-      color: #1e90ff;
-      -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
-      transform: skew(-5deg, -5deg) rotate(5deg);
-      -webkit-transform-origin: center center;
-      transform-origin: center center;
-      text-shadow: 1px 1px #0000ff,
-                   2px 2px #0000ff,
-                   3px 3px #0010bb,
-                   4px 4px #0010bb,
-                   5px 5px #0010bb,
-                   6px 6px #0010bb,
-                   7px 7px #0010bb,
-                   8px 8px #0010bb,
-                   9px 9px #0010bb,
-                   10px 10px #0010bb,
-                   11px 11px 15px rgba(0, 0, 0, 0.5);
-      letter-spacing: 5px;
-      transition: 0.5s ease-in-out;
-      position: relative; 
-  }
-  
-  .chat-msg-Zeb-Dev .username:hover {
-      margin-left: 15px;
-      text-shadow: 0 0 10px #0000ff;
-  }
-  
-  .chat-msg-Zeb-Dev .username:before {
-  background:url("https://pomf2.lain.la/f/d8xjc5gq.gif"); background-size:cover;
-  height:30px; width:30px; margin-right:4px;
-  content:""; display:inline-block; vertical-align:middle;
-  }
-  
-  /* --- #2 (Halloween) --- */
-  
-  .chat-msg-Zeb-Dev .username, .clr_Zeb-Dev {
-      background: none;
-      font-size: 2rem;
-      font-family: "Creepster", sans-serif!important;
-      text-transform: uppercase;
-      font-weight: 800;
-      color: #ff1e1e!important;
-      -webkit-text-fill-color: #ff1e1e;
-      -webkit-transform: skew(-3deg, -3deg) rotate(3deg);
-      transform: skew(-3deg, -3deg) rotate(3deg);
-      -webkit-transform-origin: center center;
-      transform-origin: center center;
-      text-shadow: 
-          0 0 6px #ff0000,    
-          0 0 12px #ff5500,   
-          2px 2px 4px #000,   
-          -2px -2px 6px #660000;
-      letter-spacing: 4px;
-      transition: 0.4s ease-in-out;
-      position: relative;
-      animation: bloodPulse 2s infinite;
-  }
-  
-  .chat-msg-Zeb-Dev .username:hover {
-      text-shadow: 
-          0 0 8px #ff0000,
-          0 0 16px #ff5500,
-          0 0 24px #ff2200,
-          2px 2px 6px #000!important;
-      color: #ff8800!important;
-      transform: scale(1.1);
-      transition: all 0.5s ease-in-out;
-  }
-  
-  .chat-msg-Zeb-Dev .username:before {
-  background:url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmgzaG41djd0MWFqY3JsZDl1bG1kOWxkMXFqa3doa3NsajV1d3ppNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Vx7QhTYVhIrhumRkst/giphy.gif"); background-size:cover;
-      height:30px; width:40px; margin-right:6px;
-      content:""; display:inline-block; vertical-align:middle;
-  }
-  
-  @keyframes bloodPulse {
-      0%, 100% {
-          text-shadow: 
-              0 0 6px #ff0000,
-              0 0 12px #ff5500,
-              2px 2px 4px #000;
-      }
-      50% {
-          text-shadow: 
-              0 0 10px #ff2200,
-              0 0 20px #ff4400,
-              0 0 30px #ff0000,
-              2px 2px 6px #000;
       }
   }
