@@ -104,6 +104,21 @@
     padding: 0 !important;
 }
 
+/* Image Resizing */
+
+html[data-btfw-theme="dark"] #messagebuffer {
+    --btfw-emote-size: min(calc(100% - 16px), clamp(16rem, 32vw, 40rem)) !important;
+}
+
+html[data-btfw-theme="dark"] #messagebuffer .channel-emote,
+html[data-btfw-theme="dark"] #messagebuffer .giphy,
+html[data-btfw-theme="dark"] #messagebuffer .chat-picture,
+html[data-btfw-theme="dark"] #messagebuffer .image-embed-small {
+    object-fit: cover !important;
+    max-height: clamp(12rem, 40vh, 28rem) !important;
+    max-width: min(100%, 40rem) !important;
+}
+
 /* PM Changes */
 
 html[data-btfw-theme="dark"] .pm-panel {
