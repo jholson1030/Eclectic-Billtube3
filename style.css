@@ -51,19 +51,11 @@
 }
 
 #btfw-navhost .navbar-brand {
-    font-size: clamp(2rem, 2.65vw, 2.3rem) !important;
+    font-size: clamp(2.5rem, 3.15vw, 2.8rem) !important;
     font-weight: 700 !important;
     font-family: var(--zeb-title-font);
     letter-spacing: 1.5px !important;
-    background: linear-gradient(120deg,
-      #16a34a,
-      #a7f3d0 38%,
-      #fda4af 60%,
-      #dc2626 90%
-      ) !important;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-    color: transparent !important;  
+    color: #dc2626 !important; 
     -webkit-text-stroke: .25px #fbbf24 !important;
     filter: drop-shadow(-1px -1px 0 rgba(255, 255, 255, .85))
         drop-shadow(1px 1px 0 rgba(30, 27, 24, .45))
@@ -145,8 +137,8 @@ html[data-btfw-theme="dark"] .pm-panel .timestamp {
 
 #pmbar .pm-panel .pm-buffer .username {
     font-size: 1.1rem !important;
-    color: #e4c176 !important;
-    -webkit-text-stroke: .15px #ca6e2e !important;
+    color: #fecaca !important;
+    -webkit-text-stroke: .15px #dc2626 !important;
 }
 
 html[data-btfw-theme="dark"] .pm-panel .pm-input {
