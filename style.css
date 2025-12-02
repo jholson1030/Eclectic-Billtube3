@@ -55,7 +55,7 @@
     font-weight: 700 !important;
     font-family: var(--zeb-title-font);
     letter-spacing: 1.5px !important;
-    color: #dc2626 !important; 
+    color: #16a34a !important; 
     -webkit-text-stroke: .25px #fbbf24 !important;
     filter: drop-shadow(-1px -1px 0 rgba(255, 255, 255, .85))
         drop-shadow(1px 1px 0 rgba(30, 27, 24, .45))
