@@ -17,14 +17,14 @@
     --zeb-pm-img-max-height: clamp(6rem, 20vh, 14rem);
     --zeb-pm-img-width: clamp(6rem, 20vw, 14rem);
     --zeb-msg-hover-bg: color-mix(in srgb, var(--btfw-color-panel) 90%, rgba(0, 0, 0, .45) 10%);
-    --zeb-navbar-color: #85010b;
+    --zeb-navbar-color: #8b1a1a;
   }
 
 
   /* --- CLASS AND ID TAGS --- */
 
 .navbar {
-    border-bottom: solid 3px #fbbf24 !important;
+    border-bottom: solid 3px #d4a64a !important;
 }
 
 .form-control {
@@ -68,8 +68,8 @@
     font-family: 'Berkshire Swash', sans-serif !important;
     font-weight: 700 !important;
     letter-spacing: 2.5px !important;
-    color: #16a34a !important;
-    -webkit-text-stroke: .025px #fbbf24 !important;
+    color: #2e5a3d !important;
+    -webkit-text-stroke: .025px #d4a64a !important;
     filter: drop-shadow(-1px -1px 0 rgba(255, 255, 255, .85))
       drop-shadow(1px 1px 0 rgba(30, 27, 24, .45))
       drop-shadow(2px 3px 3px rgba(30, 27, 24, .4)) !important;
