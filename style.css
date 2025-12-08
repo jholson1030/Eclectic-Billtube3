@@ -16,7 +16,7 @@
     --zeb-pm-img-min-width: 110px;
     --zeb-pm-img-max-height: clamp(6rem, 20vh, 14rem);
     --zeb-pm-img-width: clamp(6rem, 20vw, 14rem);
-    --zeb-msg-hover-bg: color-mix(in srgb, var(--btfw-color-panel) 90%, rgba(0, 0, 0, .45) 10%);
+    --zeb-msg-hover-bg: color-mix(in srgb, var(--btfw-color-surface) 90%, rgba(0, 0, 0, .45) 10%);
     --zeb-navbar-color: #8b1a1a;
   }
 
