@@ -86,6 +86,7 @@
 
 #btfw-navhost nav .navbar-nav > li > a, .btfw-chat-topbar, .modal-header {
     font-family: var(--zeb-accent-font);
+    color: #f3c543 !important;
 }
 
 #btfw-navhost .btfw-nav-avatar {
@@ -113,6 +114,21 @@
     border: 0 !important;
     gap: 0 !important;
     padding: 0 !important;
+}
+
+/* add new link hover effect here */
+
+#messagebuffer a {
+  
+}
+
+/* spoiler effect */
+
+#messagebuffer .spoiler {
+    background: transparent !important;
+    color: inherit !important;
+    filter: blur(6px) !important;
+    transition: filter .2s ease-in-out !important;
 }
 
 /* Image Resizing */
