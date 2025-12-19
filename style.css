@@ -116,10 +116,60 @@
     padding: 0 !important;
 }
 
-/* add new link hover effect here */
+/* Holiday Link Hover Effect (Christmas Lights) */
 
 #messagebuffer a {
-  
+  color: #ffedc7;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+  text-shadow:
+    0 1px 0 rgba(0, 0, 0, .35),
+    0 0 6px rgba(255, 237, 199, .15);
+  transition: filter .2s ease !important;
+}
+
+#messagebuffer a:hover {
+  animation: xmasLights 1.6s infinite steps(1) !important;
+  filter: brightness(1.08) !important;
+}
+
+#messagebuffer a:focus {
+  animation: xmasLights 1.6s infinite linear !important;
+  outline: none !important;
+}
+
+@keyframes xmasLights{
+0%{
+  color: #DA111E; /* red */
+  text-shadow:
+    0 1px 0 rgba(0,0,0,.35),
+    0 0 6px rgba(218,17,30,.55),
+    0 0 14px rgba(218,17,30,.35),
+    0 0 22px rgba(255,237,199,.15);
+}
+33%{
+  color: #FBE646; /* gold */
+  text-shadow:
+    0 1px 0 rgba(0,0,0,.35),
+    0 0 6px rgba(251,230,70,.55),
+    0 0 14px rgba(251,230,70,.35),
+    0 0 22px rgba(255,237,199,.15);
+}
+66%{
+  color: #1E9965; /* green */
+  text-shadow:
+    0 1px 0 rgba(0,0,0,.35),
+    0 0 6px rgba(30,153,101,.55),
+    0 0 14px rgba(30,153,101,.35),
+    0 0 22px rgba(255,237,199,.15);
+}
+100%{
+  color: #FFEDC7; /* warm cream “rest” */
+  text-shadow:
+    0 1px 0 rgba(0,0,0,.35),
+    0 0 6px rgba(255,237,199,.45),
+    0 0 14px rgba(251,195,77,.22);
+}
 }
 
 /* spoiler effect */
