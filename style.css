@@ -275,9 +275,9 @@ html[data-btfw-theme="dark"] .pm-panel hr {
   background-clip: text !important;
   letter-spacing: 0.5px !important;
   color: transparent !important;
-  -webkit-text-stroke: 1px #15885a !important;
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35), 0 0 10px rgba(255, 237, 199, 0.25),
-    0 0 8px rgba(21, 136, 90, 0.25) !important;
+  -webkit-text-stroke: 2px #0f2e22;
+  text-shadow: 0 3px 0 rgba(0, 0, 0, 0.35), 0 0 14px rgba(255, 237, 199, 0.35),
+    0 10px 22px rgba(0, 0, 0, 0.25);
   display: inline-block !important;
   position: relative !important;
 }
