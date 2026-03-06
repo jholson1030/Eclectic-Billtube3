@@ -402,6 +402,13 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	margin-bottom: 125px;
 }
 
+.motd-main-section-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: clamp(300px, 8vw, 500px);
+}
+
 /* ===== USERNAME STYLES ===== */
 
 /* Zeb-Dev */
