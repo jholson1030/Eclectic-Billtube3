@@ -451,12 +451,13 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	filter: drop-shadow(0 0 6px rgba(80, 250, 121, 0.6));
 }
 
-.quote {
+.quote .footer-text {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	max-width: 700px;
+	font-size: clamp(18px, 2vw, 28px);
 }
 
 /* ===== USERNAME STYLES ===== */
