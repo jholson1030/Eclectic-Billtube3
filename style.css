@@ -237,7 +237,7 @@
 	background-position: 200% 100%;
 	background-repeat: no-repeat;
 	padding-bottom: 2px;
-	transition: background-position 0.5s ease, color 0.2s ease !important;
+	transition: background-position 0.75s ease, color 0.5s ease !important;
 }
 
 #messagebuffer a:hover {
