@@ -151,6 +151,36 @@
 	padding: 0 !important;
 }
 
+#btfw-vsplit {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0.04) 0%,
+		rgba(80, 250, 121, 0.16) 20%,
+		rgba(80, 250, 121, 0.45) 50%,
+		rgba(80, 250, 121, 0.16) 80%,
+		rgba(255, 255, 255, 0.04) 100%
+	) !important;
+	border-radius: 6px !important;
+	box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.22),
+		inset 0 0 6px rgba(80, 250, 121, 0.18), 0 0 8px rgba(80, 250, 121, 0.28),
+		0 0 16px rgba(80, 250, 121, 0.12) !important;
+	transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+}
+
+#btfw-vsplit:hover {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0.06) 0%,
+		rgba(80, 250, 121, 0.22) 20%,
+		rgba(80, 250, 121, 0.62) 50%,
+		rgba(80, 250, 121, 0.22) 80%,
+		rgba(255, 255, 255, 0.06) 100%
+	) !important;
+	box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.28),
+		inset 0 0 8px rgba(80, 250, 121, 0.24), 0 0 12px rgba(80, 250, 121, 0.38),
+		0 0 22px rgba(80, 250, 121, 0.18) !important;
+}
+
 /* Holiday Link Hover Effect (Christmas Lights) */
 
 #messagebuffer a {
@@ -425,7 +455,7 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	display: block;
 	width: 100%;
 	text-align: center;
-	text-direction: none;
+	text-decoration: none;
 	color: #50fa79;
 }
 
