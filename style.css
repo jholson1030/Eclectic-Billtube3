@@ -155,31 +155,30 @@
 #btfw-vsplit {
 	background: linear-gradient(
 		90deg,
-		rgba(255, 255, 255, 0.04) 0%,
-		rgba(80, 250, 121, 0.16) 20%,
-		rgba(80, 250, 121, 0.45) 50%,
-		rgba(80, 250, 121, 0.16) 80%,
-		rgba(255, 255, 255, 0.04) 100%
+		rgba(255, 255, 255, 0.02) 0%,
+		rgba(200, 200, 205, 0.1) 20%,
+		rgba(200, 200, 205, 0.22) 50%,
+		rgba(200, 200, 205, 0.1) 80%,
+		rgba(255, 255, 255, 0.02) 100%
 	) !important;
 	border-radius: 6px !important;
-	box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.22),
-		inset 0 0 6px rgba(80, 250, 121, 0.18), 0 0 8px rgba(80, 250, 121, 0.28),
-		0 0 16px rgba(80, 250, 121, 0.12) !important;
+	box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.15) !important;
 	transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 
 #btfw-vsplit:hover {
 	background: linear-gradient(
 		90deg,
-		rgba(255, 255, 255, 0.06) 0%,
-		rgba(80, 250, 121, 0.22) 20%,
-		rgba(80, 250, 121, 0.62) 50%,
-		rgba(80, 250, 121, 0.22) 80%,
-		rgba(255, 255, 255, 0.06) 100%
+		rgba(255, 255, 255, 0.08) 0%,
+		rgba(255, 255, 255, 0.35) 20%,
+		rgba(255, 255, 255, 0.85) 50%,
+		rgba(255, 255, 255, 0.35) 80%,
+		rgba(255, 255, 255, 0.08) 100%
 	) !important;
-	box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.28),
-		inset 0 0 8px rgba(80, 250, 121, 0.24), 0 0 12px rgba(80, 250, 121, 0.38),
-		0 0 22px rgba(80, 250, 121, 0.18) !important;
+	box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.6),
+		inset 0 0 8px rgba(255, 255, 255, 0.5), 0 0 12px rgba(255, 255, 255, 0.4),
+		0 0 22px rgba(255, 255, 255, 0.25) !important;
+	cursor: col-resize;
 }
 
 /* Holiday Link Hover Effect (Christmas Lights) */
