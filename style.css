@@ -370,16 +370,126 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.cdnfonts.com/css/october-crow");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=UnifrakturCook:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=IM+Fell+English:ital@0;1&family=Pirata+One&family=Special+Elite&family=UnifrakturCook:wght@700&display=swap");
 
-.motd-header {
-	max-height: clamp(400px, 5vh, 500px);
-	width: auto;
-	padding-bottom: 15px;
+.motd-topbar {
+	position: relative;
+	isolation: isolate;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	max-width: 100%;
+	padding: clamp(1.25rem, 4vw, 2.5rem);
+	text-align: center;
 }
 
-.excellent-img {
-	max-height: clamp(150px, 2.5vh, 200px);
-	width: auto;
+.motd-topbar::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	pointer-events: none;
+	background: radial-gradient(
+		ellipse at 60% 35% at 50% 18%,
+		rgba(124, 77, 186, 0.28),
+		transparent 70%
+	);
+}
+
+.motd-title {
+	margin: 0;
+	padding: 0;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.motd-title-kicker {
+	display: block;
+	padding-left: 0.4em;
+	margin-bottom: clamp(6px, 1.2vw, 14px);
+	font-family: "Cinzel Decorative", Georgia, serif;
+	font-weight: 700;
+	font-size: clamp(16px, 2.4vw, 30px);
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	color: #a57be0;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8), 0 0 12px rgba(124, 77, 186, 0.6);
+}
+
+.motd-title-main {
+	display: inline-block;
+	max-width: 100%;
+	font-family: "Cinzel Decorative", Georgia, serif;
+	font-weight: 900;
+	font-size: clamp(38px, 8.5vw, 104px);
+	line-height: 1.05;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	text-wrap: balance;
+	background: linear-gradient(
+		180deg,
+		#f4f1ff 0%,
+		#c9d1d9 35%,
+		#a57be0 70%,
+		#7c4dba 100%
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.8))
+		drop-shadow(0 0 10px rgba(124, 77, 186, 0.5));
+	animation: gf-glow 6s ease-in-out infinite alternate;
+}
+
+@keyframes gf-glow {
+	from {
+		filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.8))
+			drop-shadow(0 0 10px rgba(124, 77, 186, 0.5));
+	}
+	to {
+		filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.8))
+			drop-shadow(0 0 24px rgba(165, 123, 224, 0.8));
+	}
+}
+
+.motd-tagline {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: clamp(10px, 2vw, 26px);
+	max-width: 100%;
+	margin: clamp(14px, 2vw, 26px) 0 clamp(28px, 5vw, 56px);
+	font-family: "Pirata One", "Special Elite", serif;
+	font-size: clamp(20px, 2.6vw, 34px);
+	line-height: 1.2;
+	letter-spacing: 0.12em;
+	color: #c9d1d9;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8), 0 0 12px rgba(124, 77, 186, 0.5);
+}
+
+.motd-tagline::before,
+.motd-tagline::after {
+	content: "";
+	flex: 0 1 clamp(28px, 8vw, 120px);
+	height: 2px;
+}
+
+.motd-tagline::before {
+	background: linear-gradient(90deg, transparent 0%, #7c4dba 65%, #ff6a00 100%);
+}
+
+.motd-tagline::after {
+	background: linear-gradient(
+		270deg,
+		transparent 0%,
+		#7c4dba 65%,
+		#ff6a00 100%
+	);
 }
 
 .social-img-link {
@@ -399,42 +509,126 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 }
 
 .motd-marathon-section {
+	position: relative;
+	overflow: hidden;
 	width: min(900px, 92vw);
-	font-size: 36pt;
-	border-radius: 28px;
-	border: 12px solid transparent;
-	background: linear-gradient(180deg, #2f3052 0%, #262744 100%) padding-box,
-		linear-gradient(90deg, #5f3dc4 0%, #7048e8 40%, #845ef7 70%, #b197fc 100%)
+	margin-bottom: 25px;
+	padding: clamp(60px, 9vw, 96px) clamp(22px, 4vw, 56px) clamp(26px, 3vw, 44px);
+	border: 6px solid transparent;
+	border-radius: 150px 150px 14px 14px;
+	background: linear-gradient(180deg, #2b2f36 0%, #1a1c20 55%, #111214 100%)
+			padding-box,
+		linear-gradient(180deg, #a57be0 0%, #7c4dba 35%, #4b2e7a 70%, #2b2f36 100%)
 			border-box;
-	box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35),
-		0 0 0 4px rgba(80, 250, 121, 0.75) inset, 0 0 22px rgba(112, 72, 232, 0.25);
+	box-shadow: 0 14px 30px rgba(0, 0, 0, 0.6),
+		0 0 0 2px rgba(255, 106, 0, 0.75) inset, 0 0 30px rgba(124, 77, 186, 0.35);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: clamp(22px, 3vw, 50px);
-	width: 80%;
-	margin-bottom: 25px;
+}
+
+.motd-marathon-section::before {
+	content: "";
+	position: absolute;
+	left: -10%;
+	bottom: 0;
+	width: 120%;
+	height: 55%;
+	pointer-events: none;
+	background: radial-gradient(
+			ellipse at 20% 100%,
+			rgba(201, 209, 217, 0.1),
+			transparent 60%
+		),
+		radial-gradient(
+			ellipse at 80% 100%,
+			rgba(165, 123, 224, 0.14),
+			transparent 55%
+		);
+	animation: gf-fog 14s ease-in-out infinite alternate;
+}
+
+@keyframes gf-fog {
+	from {
+		transform: translateX(-4%);
+	}
+	to {
+		transform: translateX(4%);
+	}
 }
 
 .motd-main-text {
-	font-family: "Orbitron", sans-serif;
-	font-size: 28px;
-	color: #f0eff1;
+	font-family: "Special Elite", "Courier New", monospace;
+	font-size: 26px;
+	line-height: 1.45;
+	letter-spacing: 0.02em;
+	color: #c9d1d9;
+	-webkit-text-stroke: 0;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8), 0 0 12px rgba(124, 77, 186, 0.45);
 }
 
 .motd-alt-text {
-	font-size: clamp(22px, 2.2vw, 32px);
-	line-height: 1.25;
-	max-width: 70ch;
-	margin-top: 10px;
-	color: #50fa79;
-	font-family: "VT323", monospace;
+	position: relative;
+	z-index: 1;
+	max-width: 60ch;
+	margin: 10px 0 0;
+	font-family: "IM Fell English", Georgia, serif;
+	font-size: clamp(20px, 2.2vw, 28px);
+	line-height: 1.45;
+	letter-spacing: 0.01em;
 	text-align: center;
-	margin-top: 10px;
-	-webkit-text-stroke: 2px rgba(255, 255, 255, 0.12);
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 4px rgba(0, 0, 0, 0.55),
-		0 0 10px rgba(112, 72, 232, 0.35);
+	color: #c9d1d9;
+	-webkit-text-stroke: 0;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8), 0 0 14px rgba(124, 77, 186, 0.5);
+}
+
+.motd-alt-text:first-of-type {
+	font-style: italic;
+	color: #a57be0;
+}
+
+.motd-alt-text::first-letter {
+	font-family: "UnifrakturCook", "IM Fell English", serif;
+	font-style: normal;
+	font-size: 1.7em;
+	line-height: 0;
+	color: #ff6a00;
+	text-shadow: 0 0 10px rgba(255, 106, 0, 0.45);
+	animation: gf-candle 5s ease-in-out infinite;
+}
+
+@keyframes gf-candle {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	45% {
+		opacity: 0.82;
+	}
+	60% {
+		opacity: 0.96;
+	}
+}
+
+.motd-alt-text + .motd-alt-text {
+	margin-top: 28px;
+}
+
+.motd-alt-text + .motd-alt-text::before {
+	content: "";
+	display: block;
+	width: min(320px, 60%);
+	height: 2px;
+	margin: 0 auto 24px;
+	background: linear-gradient(90deg, transparent, #7c4dba, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.motd-marathon-section::before,
+	.motd-alt-text::first-letter {
+		animation: none;
+	}
 }
 
 .motd-body-top {
@@ -469,37 +663,57 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	height: 75px;
 	width: 240px;
 	margin-top: 20px;
-	border: solid 3px #7048e8;
-	background: linear-gradient(180deg, #b4bd66 0%, #3a3b54 100%);
-	color: #50fa79;
-	font-family: "VT323", sans-serif;
-	font-size: 24px;
-	box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35),
-		0 0 0 2px rgba(95, 61, 196, 0.35) inset;
-	border-radius: 8px;
+	box-sizing: border-box;
+	border: 3px solid transparent;
+	border-radius: 38px 38px 8px 8px;
+	background: linear-gradient(180deg, #2b2f36 0%, #111214 100%) padding-box,
+		linear-gradient(180deg, #a57be0 0%, #7c4dba 45%, #4b2e7a 100%) border-box;
+	box-shadow: 0 10px 22px rgba(0, 0, 0, 0.5), 0 0 14px rgba(124, 77, 186, 0.25);
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	overflow: hidden;
+	transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.motd-pl-button .motd-pl-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	-webkit-text-stroke: 2px rgba(255, 255, 255, 0.12);
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 4px rgba(0, 0, 0, 0.45),
-		0 0 8px rgba(80, 160, 255, 0.55), 0 0 18px rgba(80, 160, 255, 0.75);
-	transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out,
-		box-shadow 0.2s ease-in-out;
-}
-
-.motd-pl-button:hover {
-	filter: brightness(1.12);
-	transform: scale(1.15);
-	box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45), 0 0 18px rgba(112, 72, 232, 0.45),
-		0 0 14px rgba(80, 250, 121, 0.35);
-}
-
-.motd-pl-link {
-	display: block;
 	width: 100%;
+	box-sizing: border-box;
+	padding: 0 14px;
+	font-family: "Pirata One", "Special Elite", serif;
+	font-size: 25px;
+	line-height: 1.1;
+	letter-spacing: 0.03em;
 	text-align: center;
-	text-direction: none;
-	color: #50fa79;
+	text-decoration: none;
+	color: #c9d1d9;
+	-webkit-text-stroke: 0;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8), 0 0 10px rgba(124, 77, 186, 0.6);
+	transition: color 0.2s ease-out, text-shadow 0.2s ease-out;
+}
+
+.motd-pl-button:hover,
+.motd-plbutton:focus-within {
+	transform: translateY(-6px);
+	box-shadow: 0 16px 28px rgba(0, 0, 0, 0.55),
+		0 0 0 2px rgba(255 106, 0, 0.8) inset, 0 0 22px rgba(255, 106, 0, 0.3);
+}
+
+.motd-pl-button:hover .motd-pl-link,
+.motd-pl-button:focus-within .motd-pl-link {
+	color: #ff6a00;
+	text-decoration: none;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8), 0 0 12px rgba(255, 106, 0, 0.55);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.motd-pl-button,
+	.motd-pl-button .motd-pl-link {
+		transition: none;
+	}
 }
 
 .eff-container {
@@ -527,69 +741,144 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 }
 
 .motd-footer {
+	position: relative;
+	overflow: hidden;
+	align-self: stretch;
+	box-sizing: border-box;
 	width: 100%;
 	min-height: 80px;
-	padding: 18px 0;
-	align-self: stretch;
-	position: relative;
+	padding: 38px clamp(14px, 3vw, 28px) max(18px, env(safe-area-inset-bottom));
+	/* Wraps on its own: icons sit beside the text when there is room,
+     and stack above it when there isn't. No breakpoints needed. */
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	gap: 14px clamp(16px, 3vw, 32px);
 	background: linear-gradient(
 				90deg,
-				#5f3dc4 0%,
-				#7048e8 40%,
-				#845ef7 70%,
-				#b197fc 100%
+				transparent 0%,
+				#ff6a00 12%,
+				#ff6a00 88%,
+				transparent 100%
 			)
-			top / 100% 14px no-repeat,
-		linear-gradient(90deg, #50fa79, #50fa79) top 14px left / 100% 4px no-repeat,
-		linear-gradient(180deg, #2f3052 0%, #262744 100%);
-	box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35), 0 0 22px rgba(122, 72, 232, 0.18);
+			top 10px left / 100% 3px no-repeat,
+		linear-gradient(
+				90deg,
+				#4b2e7a 0%,
+				#7c4dba 25%,
+				#a57be0 50%,
+				#7c4dba 75%,
+				#4b2e7a 100%
+			)
+			top / 100% 10px no-repeat,
+		linear-gradient(180deg, #3a3f4b 0%, #2b2f36 100%);
+	box-shadow: 0 -12px 36px rgba(124, 77, 186, 0.45),
+		0 -2px 0 rgba(165, 123, 224, 0.5);
 }
 
-.socials {
+.motd-footer::before {
+	content: "";
 	position: absolute;
-	left: 20px;
-	display: flex;
-	gap: 10px;
-	align-items: center;
+	left: -10%;
+	bottom: 0;
+	width: 120%;
+	height: 70%;
+	pointer-events: none;
+	background: radial-gradient(
+			ellipse at 15% 100%,
+			rgba(201, 209, 217, 0.1),
+			transparent 60%
+		),
+		radial-gradient(
+			ellipse at 85% 100%,
+			rgba(165, 123, 224, 0.14),
+			transparent 55%
+		);
+	animation: gf-fog 14s ease-in-out infinite alternate;
 }
 
-.quote .footer-text {
+.motd-footer .socials {
+	position: relative;
+	left: auto;
+	z-index: 1;
+	flex: 0 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	max-width: 700px;
-	font-size: clamp(18px, 2vw, 28px);
+	gap: clamp(10px, 2vw, 16px);
 }
 
-@media (max-width: 640px) {
-	.motd-footer {
-		flex-direction: column;
-		min-height: unset;
-		padding: 18px 12px;
-		gap: 14px;
-	}
+.motd-footer .socials a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: clamp(38px, 4.5vw, 48px);
+	height: clamp(38px, 4.5vw, 48px);
+	padding: 7px;
+	border: 2px solid #a57be0;
+	border-radius: 50%;
+	background: #1a1c20;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+	transition: transform 0.2s ease-out, border-color 0.2s ease-out,
+		box-shadow 0.2s ease-out;
+}
 
-	.socials {
-		position: static;
-		left: auto;
-		gap: 14px;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
+.motd-footer .socials .social-img-link {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	object-fit: contain;
+	filter: grayscale(1) brightness(1.1);
+	transition: filter 0.2s ease-out;
+}
 
-	.social-img-link {
-		width: 34px;
-		padding-top: 0;
-	}
+.motd-footer .socials a:hover,
+.motd-footer .socials a:focus-visible {
+	transform: translateY(-4px);
+	border-color: #ff6a00;
+	box-shadow: 0 8px 14px rgba(0, 0, 0, 0.55), 0 0 16px rgba(255, 106, 0, 0.35);
+}
 
-	.quote .footer-text {
-		font-size: 16px;
-		max-width: 90vw;
-		padding: 0 8px;
+.motd-footer .socials a:hover .social-img-link,
+.motd-footer .socials a:focus-visible .social-img-link {
+	filter: none;
+}
+
+.motd-footer .socials a:focus-visible {
+	outline: none;
+}
+
+.motd-footer .quote {
+	position: relative;
+	z-index: 1;
+	flex: 1 1 340px;
+	min-width: 0;
+}
+
+.motd-footer .quote .footer-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "IM Fell English", Georgia, serif;
+	font-style: italic;
+	font-size: clamp(17px, 1.4vw + 11px, 26px);
+	line-height: 1.45;
+	color: #a57be0;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8), 0 0 12px rgba(124, 77, 186, 0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.motd-footer::before {
+		animation: none;
+	}
+	.motd-footer .socials .social-img-link {
+		transition: none;
 	}
 }
 
@@ -692,7 +981,7 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 .chat-msg-Zeb-Dev .username,
 .clr_Zeb-Dev {
 	background: none;
-	font-size: 3rem;
+	font-size: 2.2rem !important;
 	font-family: "Creepster", sans-serif !important;
 	text-transform: uppercase;
 	font-weight: 800;
