@@ -93,24 +93,24 @@
 /* CHANNEL TITLE */
 
 #btfw-navhost a.navbar-brand {
-	font-family: "New Rocker", Georgia, serif;
-	font-size: clamp(1.75rem, 3vw, 2.6rem);
-	font-weight: 400;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #f1e9ff;
+	font-family: "New Rocker", Georgia, serif !important;
+	font-size: clamp(1.75rem, 3vw, 2.6rem) !important;
+	font-weight: 400 !important;
+	letter-spacing: 0.08em !important;
+	text-transform: uppercase !important;
+	text-decoration: none !important;
+	color: #f1e9ff !important;
 	text-shadow: 1px 1px 0 #7c4dba, 2px 2px 0 #4b2e7a,
-		3px 3px 4px rgba(0, 0, 0, 0.7), 0 0 18px rgba(124, 77, 186, 0.55);
+		3px 3px 4px rgba(0, 0, 0, 0.7), 0 0 18px rgba(124, 77, 186, 0.55) !important;
 	transition: color 0.2s ease-out, text-shadow 0.2s ease-out;
 }
 
 #btfw-navhost a.navbar-brand:hover,
 #btfw-navhost a.navbar-brand:focus {
-	color: #ff6a00;
-	text-decoration: none;
+	color: #ff6a00 !important;
+	text-decoration: none !important;
 	text-shadow: 1px 1px 0 #7c4dba, 2px 2px 0 #4b2e7a,
-		3px 3px 4px rgba(0, 0, 0, 0.7), 0 0 18px rgba(255, 106, 0, 0.55);
+		3px 3px 4px rgba(0, 0, 0, 0.7), 0 0 18px rgba(255, 106, 0, 0.55) !important;
 }
 
 #btfw-navhost > nav.navbar {
