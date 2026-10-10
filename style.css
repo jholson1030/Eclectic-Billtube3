@@ -29,7 +29,7 @@
 
 :root {
 	--btfw-top: 60px;
-	--zeb-title-font: "Orbitron", "Ubuntu", sans-serif;
+	--zeb-title-font: "Cinzel Decorative", Georgia, serif;
 	--zeb-accent-font: "Electrolize", "Ubuntu", sans-serif;
 	--zeb-pm-background: #2e2e2e;
 	--zeb-pm-img-min-width: 110px;
@@ -98,13 +98,36 @@
 
 #btfw-navhost .navbar-brand {
 	font-size: clamp(2.5rem, 3.15vw, 2.8rem) !important;
-	font-family: "Orbitron", sans-serif !important;
-	font-weight: 700 !important;
+	font-family: "Cinzel Decorative", Georgia, serif !important;
+	font-weight: 900 !important;
 	letter-spacing: 2.5px !important;
-	color: #f0eff1 !important;
-	-webkit-text-stroke: 4px rgba(255, 255, 255, 0.12) !important;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 4px rgba(0, 0, 0, 0.45),
-		0 0 8px rgba(80, 160, 255, 0.55), 0 0 18px rgba(80, 160, 255, 0.75) !important;
+	text-transform: uppercase;
+	text-wrap: balance;
+	background: linear-gradient(
+		180deg,
+		#f4f1ff 0%,
+		#c9d1d9 35%,
+		#a57be0 70%,
+		#7c4dba 100%
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.8))
+		drop-shadow(0 0 10px rgba(124, 77, 186, 0.5));
+	animation: gf-glow 6s ease-in-out infinite alternate;
+}
+
+@keyframes gf-glow {
+	from {
+		filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.8))
+			drop-shadow(0 0 10px rgba(124, 77, 186, 0.5));
+	}
+	to {
+		filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.8))
+			drop-shadow(0 0 24px rgba(165, 123, 224, 0.8));
+	}
 }
 
 #btfw-navhost > nav.navbar {
