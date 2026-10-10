@@ -31,8 +31,7 @@
 
 :root {
 	--btfw-top: 60px;
-	--zeb-title-font: "Cinzel Decorative", Georgia, serif;
-	--zeb-accent-font: "Electrolize", "Ubuntu", sans-serif;
+	--zeb-accent-font: "Pirata One", "Special Elite", serif;
 	--zeb-pm-background: #2e2e2e;
 	--zeb-pm-img-min-width: 110px;
 	--zeb-pm-img-max-height: clamp(6rem, 20vh, 14rem);
@@ -382,6 +381,10 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 @import url("https://fonts.cdnfonts.com/css/october-crow");
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=UnifrakturCook:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=IM+Fell+English:ital@0;1&family=Pirata+One&family=Special+Elite&family=UnifrakturCook:wght@700&display=swap");
+
+#motd {
+	background: #111214 !important;
+}
 
 .motd-topbar {
 	position: relative;
