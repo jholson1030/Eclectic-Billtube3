@@ -1058,6 +1058,91 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	}
 }
 
+/* ElaMongrella & Grusel */
+
+.chat-msg-ElaMongrella .username,
+.clr_ElaMongrella {
+	--btfw-name-color: #ffffff !important;
+	font-family: "Schoolbell", sans-serif !important;
+	font-size: 1.8rem !important;
+	height: 35px;
+	background: url("");
+	animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+	0% {
+		text-shadow: 0 0 5px #fbf98f, 0 0 10px #fbf98f, 0 0 20px #fbf98f;
+	}
+
+	100% {
+		text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00, 0 0 20px #ffff00;
+	}
+}
+
+.chat-msg-Grusel .username,
+.clr_Grusel {
+	--btfw-name-color: #ffffff !important;
+	font-family: "Amatic SC", sans-serif !important;
+	font-size: 2.5rem !important;
+	font-style: normal !important;
+	animation: Flicker 0.23s infinite;
+}
+
+@keyframes Flicker {
+	60%,
+	80% {
+		text-shadow: 0 0 0.1vw #ffffff, 0.5vw 0.5vw 0.5vw rgba(232, 0, 0, 0.2),
+			-0.5vw -0.5vw 0.5vw rgba(232, 0, 0, 0.2),
+			0.5vw -0.5vw 0.5vw rgba(232, 0, 0, 0.2),
+			-0.5vw 0.5vw 0.5vw rgba(232, 0, 0, 0.2),
+			0 -0.5vw 0.5vw rgba(232, 0, 0, 0.2), 0 0.5vw 0.5vw rgba(232, 0, 0, 0.2),
+			0.5vw 0 0.5vw rgba(232, 0, 0, 0.2), 0 0 #ffffff;
+	}
+	70%,
+	100% {
+		text-shadow: 0 0 0.1vw #ffffff, 0.8vw 0.8vw 0.8vw rgba(187, 0, 0, 0.4),
+			-0.8vw -0.8vw 0.8vw rgba(187, 0, 0, 0.4),
+			0.8vw -0.8vw 0.8vw rgba(187, 0, 0, 0.4),
+			-0.8vw 0.8vw 0.5vw rgba(187, 0, 0, 0.4),
+			0 -0.8vw 0.5vw rgba(187, 0, 0, 0.4), 0 0.8vw 0.8vw rgba(187, 0, 0, 0.4);
+	}
+}
+
+.chat-msg-ElaMongrella .username:before {
+	background: url("https://8upload.com/image/89c158136df8963f/sunny.png");
+	background-size: cover;
+	height: 70px;
+	width: 70px;
+	margin-right: -20px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.chat-msg-Grusel .username:before {
+	background: url("https://pomf2.lain.la/f/t14y03h1.gif");
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	margin-right: 4px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* MrsElasMom */
+
+#messagebuffer .chat-msg-MrsElasMom .username,
+.clr_MrsElasMom {
+	--btfw-name-color: #9803fc !important;
+	font-family: "Schoolbell", sans-serif !important;
+	font-size: 1.8rem !important;
+	text-shadow: 0px 0px 6px #460373, 0px 0px 6px #460373, 0px 0px 6px #460373,
+		0px 0px 6px #460373 !important;
+	font-size: 1.5rem !important;
+}
+
 /* Think, Truthy, SwineFlew */
 
 .chat-msg-Think .username,
@@ -1132,7 +1217,7 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 }
 
 .chat-msg-nickoftime .username:before {
-	background: url("https://pomf2.lain.la/f/hs7f0bth.png");
+	background: url("https://u.pone.rs/xftkqrgm.png");
 	background-size: cover;
 	height: 30px;
 	width: 30px;
@@ -1172,22 +1257,77 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	font-family: Courier New !important;
 }
 
+/* Observer */
+
 .chat-msg-Observer .username,
 .clr_Observer {
 	color: #1e1e1e !important;
 }
+
+.chat-msg-Observer .username:before {
+	background: url("https://i.ibb.co/ZxBW9mJ/obs.png");
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	margin-right: 4px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Deianeira */
 
 .chat-msg-Deianeira .username,
 .clr_Deianeira {
 	color: #0df409 !important;
 }
 
+.chat-msg-Deianeira .username:before {
+	background: url("https://i.ibb.co/wC1s6SQ/dc2.jpg");
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	margin-right: 4px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.chat-msg-Deianeira .username:before {
+	background: url("https://i.ibb.co/wC1s6SQ/dc2.jpg");
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	margin-right: 4px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* VincentAdultman */
+
 .chat-msg-VincentAdultman .username {
 	color: #ff91a4 !important;
 }
+
+/* creamathon */
+
 .chat-msg-creamathon .username {
 	color: #2a52be !important;
 }
+
+.chat-msg-creamathon .username:before {
+	background: url("https://iili.io/spC8Bt.gif");
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	margin-right: 4px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* SAmaniactick */
 
 .chat-msg-SAmaniactick .username,
 .clr_SAmaniactick {
@@ -1195,6 +1335,19 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	animation: leMovingBackFromRight 10s infinite;
 	transform-origin: bottom;
 }
+
+.chat-msg-SAmaniactick .username:before {
+	background: url("https://pomf2.lain.la/f/mbtqyppy.png");
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	margin-right: 4px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Robobob */
 
 .chat-msg-Robobob .username,
 .clr_Robobob {
@@ -1214,36 +1367,20 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	color: transparent !important;
 }
 
+/* PartyCatCeilidh */
+
 .chat-msg-PartyCatCeilidh .username,
 .clr_PartyCatCeilidh {
 	color: #fafb08 !important;
 }
 
+/* hex9c9f84 */
+
 .chat-msg-hex9c9f84 .username {
 	color: #9c9f84 !important;
 }
 
-.chat-msg-creamathon .username:before {
-	background: url("https://iili.io/spC8Bt.gif");
-	background-size: cover;
-	height: 30px;
-	width: 30px;
-	margin-right: 4px;
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.chat-msg-Deianeira .username:before {
-	background: url("https://i.ibb.co/wC1s6SQ/dc2.jpg");
-	background-size: cover;
-	height: 30px;
-	width: 30px;
-	margin-right: 4px;
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
+/* Milky */
 
 .chat-msg-Milky .username:before {
 	background: url("https://i.ibb.co/F8qz0RZ/6111026j0sn-MN0-F.png");
@@ -1256,15 +1393,11 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	vertical-align: middle;
 }
 
-.chat-msg-HeinekinSkywalker .username:before {
-	background: url("https://i.ibb.co/CB0y4J2/clipart2613449.png");
-	background-size: cover;
-	height: 30px;
-	width: 30px;
-	margin-right: 4px;
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
+/* superbeastdj */
+
+.chat-msg-superbeastdj .username,
+.clr_superbeastdj {
+	--btfw-name-color: #03e8fc !important;
 }
 
 .chat-msg-superbeastdj .username:before {
@@ -1278,6 +1411,25 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	vertical-align: middle;
 }
 
+/* Viewer420 */
+
+.chat-msg-Viewer420 .username,
+.clr_Viewer420 {
+	filter: drop-shadow(0px 0px 4px #00a602) !important;
+	animation: leMovingBackFromRight 10s infinite;
+	transform-origin: bottom;
+}
+
+@keyframes leMovingBackFromRight {
+	40% {
+		transform: rotate(45deg);
+	}
+	100% {
+		transform: rotate(0deg);
+		animation-timing-function: cubic-bezier(0, 0.9, 0.7, 1.45);
+	}
+}
+
 .chat-msg-Viewer420 .username:before {
 	background: url("https://pomf2.lain.la/f/mbtqyppy.png");
 	background-size: cover;
@@ -1289,67 +1441,7 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	vertical-align: middle;
 }
 
-.chat-msg-SAmaniactick .username:before {
-	background: url("https://pomf2.lain.la/f/mbtqyppy.png");
-	background-size: cover;
-	height: 30px;
-	width: 30px;
-	margin-right: 4px;
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.chat-msg-Observer .username:before {
-	background: url("https://i.ibb.co/ZxBW9mJ/obs.png");
-	background-size: cover;
-	height: 30px;
-	width: 30px;
-	margin-right: 4px;
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.chat-msg-creamathon .username:before {
-	background: url("https://iili.io/spC8Bt.gif");
-	background-size: cover;
-	height: 30px;
-	width: 30px;
-	margin-right: 4px;
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.chat-msg-Deianeira .username:before {
-	background: url("https://i.ibb.co/wC1s6SQ/dc2.jpg");
-	background-size: cover;
-	height: 30px;
-	width: 30px;
-	margin-right: 4px;
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.chat-msg-Milky .username:before {
-	background: url("https://i.ibb.co/F8qz0RZ/6111026j0sn-MN0-F.png");
-	background-size: cover;
-	height: 30px;
-	width: 30px;
-	margin-right: 4px;
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.chat-msg-Viewer420 .username,
-.clr_Viewer420 {
-	filter: drop-shadow(0px 0px 4px #00a602) !important;
-	animation: leMovingBackFromRight 10s infinite;
-	transform-origin: bottom;
-}
+/* KelliAli */
 
 .chat-msg-KelliAli .username,
 .clr_KelliAli {
@@ -1365,6 +1457,20 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
+}
+
+/* Ash Alts */
+
+.chat-msg-Fritz_The_Cat .username {
+	color: #96948c !important;
+}
+
+.chat-msg-AshMongrella .username {
+	color: #ffa114 !important;
+}
+
+.chat-msg-FritzMongrella .username {
+	color: #96948c !important;
 }
 
 .chat-msg-FritzMongrella .username:before {
@@ -1399,6 +1505,8 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	display: inline-block;
 	vertical-align: middle;
 }
+
+/* 1010011010 */
 
 .chat-msg-1010011010 .username,
 .clr_1010011010 {
@@ -1435,22 +1543,7 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	}
 }
 
-.chat-msg-Fritz_The_Cat .username {
-	color: #96948c !important;
-}
-
-.chat-msg-AshMongrella .username {
-	color: #ffa114 !important;
-}
-
-.chat-msg-FritzMongrella .username {
-	color: #96948c !important;
-}
-
-.chat-msg-superbeastdj .username,
-.clr_superbeastdj {
-	--btfw-name-color: #03e8fc !important;
-}
+/* iHorse */
 
 .chat-msg-ihorse .username,
 .clr_ihorse {
@@ -1466,30 +1559,4 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
-}
-
-.chat-msg-KelliAli .username,
-.clr_KelliAli {
-	--btfw-name-color: #ffeb30 !important;
-}
-
-.chat-msg-KelliAli .username:before {
-	background: url("https://iili.io/PywJTl.png");
-	background-size: cover;
-	height: 30px;
-	width: 30px;
-	margin-right: 4px;
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-}
-
-@keyframes leMovingBackFromRight {
-	40% {
-		transform: rotate(45deg);
-	}
-	100% {
-		transform: rotate(0deg);
-		animation-timing-function: cubic-bezier(0, 0.9, 0.7, 1.45);
-	}
 }
