@@ -1143,6 +1143,51 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	font-size: 1.5rem !important;
 }
 
+/* AshVesuvius */
+
+.chat-msg-AshVesuvius .username,
+.clr_AshVesuvius {
+	--btfw-name-color: #ffa114 !important;
+	display: inline-block !important;
+	transform: rotate(-3deg) !important;
+	filter: drop-shadow(0px 0px 9px #c00404) !important;
+	font-family: Arial !important;
+	text-transform: uppercase !important;
+	font-size: 1.25rem !important;
+}
+
+.chat-msg-AshVesuvius .username:before {
+	background: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGJobDJ3eW84bGFjeG5tcmk1dnh0bHZ0Z3l3d3d5dnV3MDJ6OXQ1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaW   QmY3Q9cw/F55MLg80ppb8ZdScI3/giphy.gif");
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	margin-right: 4px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* CherryRound */
+
+.chat-msg-CherryRound .username,
+.clr_CherryRound {
+	--btfw-name-color: #ad1212 !important;
+	filter: drop-shadow(0px 0px 7px #ffffff) !important;
+	font-family: "Cherry Bomb One", system-ui !important;
+	font-size: 1.7rem !important;
+}
+
+.chat-msg-CherryRound .username:before {
+	background: url("https://pomf2.lain.la/f/gssgg41a.png");
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	margin-right: 4px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
 /* Think, Truthy, SwineFlew */
 
 .chat-msg-Think .username,
