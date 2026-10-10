@@ -126,10 +126,11 @@
 .btfw-chat-topbar,
 .modal-header {
 	font-family: var(--zeb-accent-font);
-	color: #e0eff1 !important;
+	letter-spacing: 0.04em !important;
+	color: #f1e9ff !important;
 	-webkit-text-stroke: 4px rgba(255, 255, 255, 0.12) !important;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25), 0 2px 4px rgba(0, 0, 0, 0.45),
-		0 0 8px rgba(80, 160, 255, 0.55), 0 0 18px rgba(80, 160, 255, 0.75) !important;
+	text-shadow: 1px 1px 0 #7c4dba, 2px 2px 0 #4b2e7a,
+		3px 3px 4px rgba(0, 0, 0, 0.7), 0 0 18px rgba(255, 106, 0, 0.55) !important;
 }
 
 #btfw-navhost .btfw-nav-avatar {
