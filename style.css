@@ -1199,13 +1199,31 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 
 .chat-msg-AshVesuvius .username,
 .clr_AshVesuvius {
-	--btfw-name-color: #ffa114 !important;
-	display: inline-block !important;
-	transform: rotate(-3deg) !important;
-	filter: drop-shadow(0px 0px 9px #c00404) !important;
-	font-family: Arial !important;
-	text-transform: uppercase !important;
-	font-size: 1.25rem !important;
+	font-family: "Rubik Glitch", sans-serif !important;
+	font-size: 1.8rem !important;
+	font-weight: 400 !important;
+	color: #f22 !important;
+	text-shadow: 0 0 6px #f00, 2px 0 #000, -2px 0 #f00 !important;
+	animation: g 3s infinite !important;
+}
+
+@keyframes g {
+	0%,
+	90%,
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+	92% {
+		opacity: 0.5;
+		transform: skew(2deg);
+	}
+	94% {
+		transform: skew(-2deg);
+	}
+	96% {
+		transform: skew(1deg);
+	}
 }
 
 .chat-msg-AshVesuvius .username:before {
