@@ -1058,6 +1058,58 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	}
 }
 
+/* zebBot */
+
+#messagebuffer .chat-msg-zebBot .username,
+#messagebuffer .clr_zebBot {
+	font-size: 1.7rem !important;
+	font-family: "Courier New", monospace !important;
+	font-weight: 700 !important;
+	letter-spacing: 1px !important;
+	color: #ffb000 !important;
+	text-shadow: 0 0 3px #ffb000, 0 0 8px #cc7a00;
+	animation: zebBotFlicker 3.5s infinite;
+}
+
+.chat-msg-zebBot .username::before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 28px;
+	height: 28px;
+	margin-right: 6px;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='2' y='4' width='20' height='14' rx='1' fill='none' stroke='%23ffb000' stroke-width='1.5'/%3E%3Crect x='4' y='6' width='16' height='10' fill='%23ffb000' opacity='0.15'/%3E%3Cline x1='9' y1='21' x2='15' y2='21' stroke='%23ffb000' stroke-width='1.5'/%3E%3Cline x1='12' y1='18' x2='12' y2='21' stroke='%23ffb000' stroke-width='1.5'/%3E%3C/svg%3E")
+		no-repeat center / contain;
+	animation: zebBotFlicker 3.5s infinite;
+}
+
+.chat-msg-zebBot .username::after {
+	content: "]";
+	color: #ffb000;
+	opacity: 0.6;
+	margin-left: 2px;
+}
+
+@keyframes zebBotFlicker {
+	0%,
+	92%,
+	100% {
+		opacity: 1;
+	}
+	93% {
+		opacity: 0.6;
+	}
+	94% {
+		opacity: 1;
+	}
+	96% {
+		opacity: 0.7;
+	}
+	97% {
+		opacity: 1;
+	}
+}
+
 /* ElaMongrella & Grusel */
 
 .chat-msg-ElaMongrella .username,
