@@ -1423,9 +1423,8 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 
 .chat-msg-VincentAdultman .username,
 .clr_VincentAdultman {
-	color: #f7d2de !important;
-	text-shadow: 0px 0px 6px #ff6191, 0px 0px 6px #ff6191, 0px 0px 6px #ff6191,
-		0px 0px 6px #ff6191 !important;
+	color: #90021f !important;
+	text-shadow: 0 0 2px #fe5bac, 0 0 3px #f64a8a, 0 0 6px #ff0090 !important;
 	font-size: 1.5rem !important;
 }
 
