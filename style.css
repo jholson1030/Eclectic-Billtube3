@@ -1687,8 +1687,7 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 }
 
 #messagebuffer > div[class*="chat-msg-ElaMongrella"] > span:not(.timestamp) {
-   background-image: linear-gradient(to left, #cc99c9, #9ec1cf, #9ee09e, #fbf98f, #feb144, #ff6663);         -webkit-background-clip: text;         -moz-background-clip: text;         background-clip: text;         color: transparent !important; 
-}
+   color: #fbf98f !important; }
 
 #messagebuffer > div[class*="chat-msg-AshVesuvius"] > span:not(.timestamp) {
     color: #F39C12 !important;  
