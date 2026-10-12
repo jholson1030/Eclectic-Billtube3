@@ -1678,3 +1678,18 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	display: inline-block;
 	vertical-align: middle;
 }
+
+
+/* ---  CHAT MESSAGE COLORS --- */
+
+#messagebuffer > div[class*="chat-msg-Zeb-Dev"] > span:not(.timestamp) {
+    color: #50fa79 !important; 
+}
+
+#messagebuffer > div[class*="chat-msg-ElaMongrella"] > span:not(.timestamp) {
+   color: #fbf98f !important; 
+}
+
+#messagebuffer > div[class*="chat-msg-AshVesuvius"] > span:not(.timestamp) {
+    color: #e67e22 !important;  
+}
