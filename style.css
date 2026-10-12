@@ -241,8 +241,8 @@
 	padding-bottom: 2px !important;
 	background: linear-gradient(#ff6a00, #ff6a00) left bottom / 0% 2px no-repeat,
 		linear-gradient(#7c4dba, #7c4dba) left bottom / 100% 2px no-repeat;
-	transition: background-size 0.35s ease-out, color 0.35s ease-out,
-		text-shadow 0.35s ease-out;
+	transition: background-size 0.75s ease-out, color 0.75s ease-out,
+		text-shadow 0.75s ease-out;
 }
 
 #messagebuffer a:hover,
