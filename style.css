@@ -1686,7 +1686,7 @@ html[data-btfw-theme="dark"] .pm-panel hr {
     color: #50fa79 !important; 
 }
 
-span:not(.timestamp) {
+#messagebuffer > div[class*="chat-msg-ElaMongrella"] > span:not(.timestamp) {
    background-image: linear-gradient(to left, #cc99c9, #9ec1cf, #9ee09e, #fbf98f, #feb144, #ff6663);         -webkit-background-clip: text;         -moz-background-clip: text;         background-clip: text;         color: transparent !important; 
 }
 
