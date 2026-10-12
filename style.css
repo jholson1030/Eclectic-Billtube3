@@ -1691,5 +1691,5 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 }
 
 #messagebuffer > div[class*="chat-msg-AshVesuvius"] > span:not(.timestamp) {
-    color: #e67e22 !important;  
+    color: #f39c12 !important;  
 }
