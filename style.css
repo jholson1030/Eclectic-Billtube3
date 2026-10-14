@@ -1151,10 +1151,23 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 }
 
 .chat-msg-zebBot .username::after {
-	content: "]";
+	content: "_";
 	color: #ffb000;
 	opacity: 0.6;
 	margin-left: 2px;
+	animation: blink 1.5s step-end infinite;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 
 @keyframes zebBotFlicker {
