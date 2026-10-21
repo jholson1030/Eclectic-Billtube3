@@ -307,7 +307,7 @@
 	transition: filter 0.2s ease-in-out !important;
 }
 
-/* Image Resizing */
+/* ===== IMAGE RESIZING ===== */
 
 /* Non-script */
 
@@ -814,20 +814,29 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	}
 }
 
-.eff-container {
-	margin-bottom: 125px;
+.eff-container,
+.its-art {
+	min-width: 0;
+	max-width: 100%;
 }
 
 .eff {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: clamp(100px, 30vw, 150px);
 	transition: all 0.5s ease-in-out;
 }
 
 .eff:hover {
-	transform: scale(1.35);
+	transform: scale(1.2);
 }
 
-.its-art {
-	margin-bottom: 125px;
+.its-art img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: clamp(160px, 30vw, 250px);
 }
 
 .motd-main-section-2 {
