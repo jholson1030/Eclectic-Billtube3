@@ -1098,8 +1098,8 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	transform: skew(-3deg, -3deg) rotate(3deg);
 	-webkit-transform-origin: center center;
 	transform-origin: center center;
-	text-shadow: 0 0 6px #ff0000, 0 0 12px #ff5500, 2px 2px 4px #000,
-		-2px -2px 6px #660000;
+	text-shadow: 0 0 3px #ff0000, 0 0 12px #ff5500, 2px 2px 4px #000,
+		0 0 4px #660000;
 	letter-spacing: 4px;
 	transition: 0.4s ease-in-out;
 	position: relative;
@@ -1107,8 +1107,8 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 }
 
 .chat-msg-Zeb-Dev .username:hover {
-	text-shadow: 0 0 8px #ff0000, 0 0 16px #ff5500, 0 0 24px #ff2200,
-		2px 2px 6px #000 !important;
+	text-shadow: 0 0 4.5px #ff0000, 0 0 16px #ff5500, 0 0 24px #ff2200,
+		0.5px 0.5px 7px 5px #000 !important;
 	color: #ff8800 !important;
 	transform: scale(1.1);
 	transition: all 0.5s ease-in-out;
@@ -1128,11 +1128,11 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 @keyframes bloodPulse {
 	0%,
 	100% {
-		text-shadow: 0 0 6px #ff0000, 0 0 12px #ff5500, 2px 2px 4px #000;
+		text-shadow: 0 0 3px #ff0000, 0 0 12px #ff5500, 2px 2px 4px #000;
 	}
 	50% {
-		text-shadow: 0 0 10px #ff2200, 0 0 20px #ff4400, 0 0 30px #ff0000,
-			2px 2px 6px #000;
+		text-shadow: 0 0 4.5px #ff2200, 0 0 20px #ff4400, 0 0 30px #ff0000,
+			1px 1px 5px #000;
 	}
 }
 
