@@ -26,6 +26,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=IM+Fell+English:ital@0;1&family=Pirata+One&family=Special+Elite&family=UnifrakturCook:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=New+Rocker&family=Pirata+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
 /* --- ROOT VARIABLES --- */
 
@@ -1133,6 +1134,29 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	50% {
 		text-shadow: 0 0 4.5px #ff2200, 0 0 20px #ff4400, 0 0 30px #ff0000,
 			1px 1px 5px #000;
+	}
+}
+
+/* PurplePurple */
+
+.chat-msg-PurplePurple .username {
+	font-family: "Monoton", cursive !important;
+	font-size: 2.1 rem !important;
+	letter-spacing: 1px !important;
+	color: #b266ff !important;
+	animation: purpleCycle 4s ease-in-out infinite;
+}
+
+@keyframes purpleCycle {
+	0%,
+	100% {
+		color: #6a0dad;
+	}
+	33% {
+		color: #b266ff;
+	}
+	66% {
+		color: #e0b3ff;
 	}
 }
 
