@@ -996,7 +996,6 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 
 /* --- #1 (Christmas, candy cane, flat face font) --- */
 
-/*
 #messagebuffer .chat-msg-Zeb-Dev .username,
 #messagebuffer .clr_Zeb-Dev {
 	font-size: 2.4rem !important;
@@ -1030,7 +1029,6 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	display: inline-block;
 	vertical-align: middle;
 }
-	*/
 
 /* --- #2 (Punk spray paint font, acid blue/purple gradient)--- */
 /*
@@ -1084,7 +1082,10 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 	vertical-align: middle;
 }
 */
+
 /* --- #3 (Halloween, splatter grindhouse font, blood red/glowing) --- */
+
+/*
 
 .chat-msg-Zeb-Dev .username,
 .clr_Zeb-Dev {
@@ -1136,6 +1137,8 @@ html[data-btfw-theme="dark"] .pm-panel hr {
 			1px 1px 5px #000;
 	}
 }
+
+*/
 
 /* PurplePurple */
 
